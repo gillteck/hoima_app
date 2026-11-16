@@ -1,0 +1,13 @@
+# System lock
+- [x] Block operational access/transactions for every role while locked, retaining only unlock recovery.
+- [x] Block non-super-admin sign-in until reopening and restore prior account restrictions safely.
+- [x] Remove references to super-admin access from expiry notices.
+- [x] Verify login rejection, blocked transactions, recovery and reopening.
+- [x] Show expired-licence renewal notice for 60 USD to other admins.
+- [x] Move the super-admin-only lock/reopen button to the dashboard bottom.
+- [x] Verify the renewal amount and button visibility/placement.
+- [x] Add protected global lock and session invalidation.
+- [x] Add super-admin-only lock/reopen button and automatic web sign-out.
+- [x] Verify authorization, lock/reopen, and retained super-admin access.
+- [x] Document mobile integration requirements in MOBILE_SYSTEM_LOCK.md.
+- [ ] Update and verify native Android automatic logout/offline lock screen — separate Android source is not in this project.

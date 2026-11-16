@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1793164825019,
+      "tag": "0000_super_admin_system_lock",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1793166670574,
+      "tag": "0001_strict_system_lock_and_login_suspensions",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793166955847,
+      "tag": "0002_guard_operational_writes_during_lock",
+      "breakpoints": true
+    }
+  ]
+}

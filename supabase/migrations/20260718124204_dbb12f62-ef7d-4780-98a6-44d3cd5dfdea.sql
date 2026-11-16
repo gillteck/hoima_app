@@ -1,0 +1,2 @@
+REVOKE ALL ON FUNCTION public.mobile_issue_invoice(uuid, text, numeric, numeric, numeric, timestamptz, text, text, text) FROM PUBLIC;
+GRANT EXECUTE ON FUNCTION public.mobile_issue_invoice(uuid, text, numeric, numeric, numeric, timestamptz, text, text, text) TO authenticated;
